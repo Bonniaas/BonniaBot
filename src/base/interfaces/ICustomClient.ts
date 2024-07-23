@@ -1,6 +1,6 @@
 import { IConfig } from "./IConfig";
 
-export default interface ICustomeClient {
+export default interface ICustomClient {
     conifg: IConfig;
 
     Invite(): void;

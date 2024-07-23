@@ -1,8 +1,8 @@
 import { Client } from "discord.js";
-import ICustomeClient from "../interfaces/ICustomeClient";
+import ICustomClient from "../interfaces/ICustomClient";
 import { IConfig } from "../interfaces/IConfig";
 
-export default class CustomeClient extends Client implements ICustomeClient 
+export default class CustomClient extends Client implements ICustomClient 
 {
     conifg: IConfig;
 

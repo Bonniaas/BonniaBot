@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "clean":"del /s /q build",
+    "clean": "del /s /q build",
     "build": "tsc --build",
     "start": "npm run clean && npm run build && node build/index.js",
     "startNoClean": "npm run build && node build/index.js"
@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^14.13.0"
+    "discord.js": "^14.13.0",
+    "typescript": "^5.5.4"
   }
 }

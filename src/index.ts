@@ -1,3 +1,3 @@
-import CustomeClient from "./base/classes/CustomeClient";
+import CustomeClient from "./base/classes/CustomClient";
 
 (new CustomeClient)
